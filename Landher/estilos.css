@@ -1,0 +1,129 @@
+body
+{
+	background-image: url(imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 200%;
+}
+#contenedor
+{
+	width:1200px;
+	height:750px;
+	float:left;
+	margin-left:60px;
+	position:relative;
+	background-color: #08088A;
+}
+header
+{
+	background-image: url(imagenes/images2.jpg);
+	width:945px;
+	height:0px;
+	position:relative;	
+}
+section
+{
+	background-image: url(imagenes/images2.jpg);
+	float:left;
+	width:950px;
+	height:700px;
+}
+aside
+{
+	background-image: url(imagenes/images3.jpg);
+	float:right;
+	width:250px;
+	height:880px;
+}
+footer
+{
+	background-image: url(imagenes/images.jpg);
+	float:left;
+	width:1200px;
+	height:50px;
+	margin-top:0px;
+}
+nav
+{
+	width:950px;
+	height:180px;
+	background-image: url(imagenes/images2.jpg);
+	float:left;
+}
+img.logo
+{
+	width: 130px;
+	height: 130px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: 10px;
+	margin-left: -100px;
+}
+h1
+{
+	color:#FFFFFF;
+	font-size:16px;
+	text-align:center;
+	font-family:"Times New Roman", "Book Antiqua", Palatino, serif;
+}
+
+img.iconos
+{
+	width:50px;
+	height:50px;
+	box-shadow:5px 10px 15px #000;
+	border-radius:10px;
+
+}
+p
+{
+	font-size: 20px;
+	text-align: center;
+	/* [disabled]font-family:"Times New Roman", "Book Antiqua", Palatino, serif; */
+}
+h5
+{
+	color:#FFFFFF;
+	font-size:30px;
+	text-align:center;
+	font-family:"Times New Roman", "Book Antiqua", Palatino, serif;
+}
+
+table.menu
+{
+	margin-left: 300px;
+}
+#bienv
+{
+	height:700px;
+	margin-left:10px;
+}
+img.logos
+{
+	width:130px;
+	height:130px;
+	box-shadow:5px 10px 15px #000;
+	border-radius:10px;
+}
+
+
+img.preguntas
+{
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	margin-top:40px;
+	margin-left: 20px;
+}
+
+img.chica{
+  width: 0px; height: 0px;
+}
+img.mediana{
+  width: 100px; height: 100px;
+}
+img.grande{
+  width: 200px; height: 200px;
+}

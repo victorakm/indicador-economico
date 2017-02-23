@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EducaLink</title>
+		<link rel="stylesheet" href="estilos.css"/>
+	</head>
+
+	<body>
+		<div id='contenedor'>
+			<header>
+				<table class="menu">
+					<tr>								
+						<td><a href="index.html"><h1>Inicio</h1></a></td>
+						<td></td><td></td><td></td><td></td><td></td>
+						<td><a href="login.html"><h1>Iniciar Sesion</h1></a></td>
+						<td></td><td></td><td></td><td></td><td></td>
+						<td><a href="contacto.html"><h1>Contacto</h1></a></td>
+						<td></td><td></td><td></td><td></td><td></td>
+						<td><a href="preguntas.html"><h1>Preguntas Frecuentes</h1></a></td>
+					</tr>
+				</table>
+			</header>
+			<nav>
+				<table border="0" width="1200">
+				<td><img class="logo" src="imagenes/logo.jpg" width=300></img></td>
+						<td><h1>Bienvenidos a nuestro sitio web.</h1>
+							<h1>Recuerda que puedes contactarnos para enviarnos tus preguntas y/o sugerencias en nuestra sección de Contacto.</h1></td>
+				</table>
+			</nav>
+			<aside>
+				<marquee direction="up" id="bienv">
+        		<center><H5>Información Adicional</H5></center>
+            	<br>
+            	<center><a href="cuenta.html"><img class="logos" src="imagenes/logo2.jpg"></a></center>
+            	<br>
+            	<center><a href="tests.html"><img class="logos" src="imagenes/logo3.jpg"></a></center>
+ 	   			<br>
+            	<center><a href="somos.html"><img class="logos" src="imagenes/logo4.jpg"></a></center>
+            	<br>
+		    	<center><a href="interactiva.html"><img class="logos" src="imagenes/logo5.jpg"></a></center>
+				</marquee>
+			</aside>
+			<section>
+				<br></br>
+				<br></br>
+				<center><h2>Inicio de Sesión</h2></center>
+				<br></br>
+				 <table border="0" valign="middle">
+        		<tr>
+        			<td rowspan=2></td>
+        			<form action="validar.php" method="post">
+
+        			<table border="0" align="center">
+         			 <tr><td><label style="font-size: 14pt"><b>Rut: </b></label></td>
+         			 	<td width=80><input style="border-radius:15px; width:150px; height:30px" type="text" name="usuario"></td><td rowspan="2"><img src="imagenes/login.png" style="width:200px; height:150px"></img></td></tr>
+          			 <tr><td><label style="font-size: 14pt"><b>Clave: </b></label></td>
+             		 	<td width=80><input style="border-radius:15px; width:150px; height:30px" type="password" name="pass"></td></tr>
+         			 	<tr></tr>
+          			<tr align="center"><td colspan="3"><input type="submit" style="width:150px; height:50px" value="Iniciar Sesion"></td></tr>
+           			 </tr>
+        	  		</table>
+        			</form>
+       				</tr>
+        			</table>
+        			<br>
+        			<center><h2>Recuerda que...</h2></center>
+        			<p>Debes estar registrado para poder ingresar. Si eres apoderado debes acercarte a tu establecimiento educacional para recivir los datos para iniciar sesión.</p>
+        			<p> Si ya reciviste tus datos y aún así no puedes iniciar sesión ponte en contacto con nosotros enviándonos un mensaje, puedes hacer ésto en la sección de contacto haciendo <a href="contacto.html">Click Aquí</a></p>
+			</section>
+			<footer>
+			</footer>
+		</div>	
+	</body>
+</html>

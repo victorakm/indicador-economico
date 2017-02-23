@@ -1,0 +1,103 @@
+* {
+font-family: sans-serif;
+list-style: none;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+#header {
+margin:auto;
+width:1200px;
+height:30px;
+position:relative;	
+font-family:Arial, Helvetica, sans-serif;
+			}
+
+.nav {
+width:800px; /*Le establecemos un ancho*/
+margin:0 auto; /*Centramos automaticamente*/
+			}
+
+.nav {
+  position: relative;
+  z-index: 999;
+}
+
+.nav > li {
+float: left;
+}
+
+.nav li a {
+background: #0c9ba0;
+color: #FFF;
+display: block;
+border: 1px solid;
+padding: 5px 12px;
+}
+
+.nav li a:hover{
+background: #0fbfc6;
+}
+
+.nav li ul {
+display: none;
+position: absolute;
+min-width: 230px;
+}
+
+.nav li:hover > ul {
+display: block;
+}
+
+/*Lo que tenemos que hacer es que estos se muestren a la derecha de su respectivo ancestro li: */
+
+.nav li ul li {
+position: relative;
+}
+
+.nav li ul li ul{
+right: -230px;
+top: 0;
+}
+
+/*Los submenús de segundo nivel tendran right: -140px, para empujarlos hacia la derecha, es importante 
+notar que este valor es el mismo que el que definimos anteriormente como ancho mínimo, y ademas 
+tendra top: 0 esto es para que se posicione al mismo nivel que su ancestro li que tiene position: relative. */
+
+.nav li .flecha{
+font-size: 9px;
+padding-left: 6px;
+display: none;
+}
+
+.nav li a:not(:last-child) .flecha {
+display: inline;
+}
+/*Establecer imagen como marca de agua */
+]]><b:skin>
+.marca-de-agua {
+    background: url(imagenes/logoo.png) no-repeat bottom right;
+    width: 500px;
+    height: 341px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.marca-de-agua{
+content:'';
+background:url("") no-repeat;
+width: 800px;
+height: 400px;
+}
+
+.marca-de-agua img{
+    padding:0;
+    width:100%;
+    height:100%; 
+    margin:0;
+    filter:alpha(opacity=50);
+    opacity:.50;
+}
+]]></b:skin>
